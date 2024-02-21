@@ -105,7 +105,7 @@
           </li>
 
           <li>
-            <span class="desc">체크아웃 시간(이전)</span>
+            <span class="desc">체크아웃 !시간(이전)</span>
             <span class="def right">오전 11:00</span>
           </li>
 

@@ -27,7 +27,7 @@
           <a target="_blank" @click="logout">로그아웃</a>
         </li>
         <li class="nav-item" v-if="!isAuthenticated">
-          <a target="_blank" href="/login">로그인</a>
+          <a target="_blank" href="/login">로그인 대체 몇번째냐아아아1111aasadssada1111</a>
         </li>
       </ul>
     </div>

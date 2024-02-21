@@ -253,9 +253,7 @@ export default {
           phoneNum: this.phoneNum,
         };
         const response = await axios.post(
-          //"http://13.125.229.218:8080/user/sellerSignUp",
-          //"http://192.168.0.115:8080/user/sellerSignUp",
-          "http://52.78.9.103:9999/api/user/sellerSignup",
+          "http://13.125.229.218:8080/user/sellerSignUp",
           data
         );
         if (response.status === 200 && response.data) {

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && docker build --tag tessssssssy/frontend:3.2 . && docker rm -f tessssssssy/frontend",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "pinia": "^2.1.7",
     "swiper": "^5.3.7",
     "vue": "^3.2.13",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-jwt-decode": "^0.1.0",
     "vue-plugin-load-script": "^2.1.1",
     "vue-router": "^4.2.5",
